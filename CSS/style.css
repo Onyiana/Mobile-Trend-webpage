@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+
+#Homesection{
+background-image:linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.973)) , url(/Images/phoneimage.jpg);
+background-repeat: no-repeat;
+background-position: cover;
+background-size: cover;
+height: 90vh;
+color: #fff;
+}
+
+#navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 12px 5rem;
+}
+
+#navlinks{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    cursor: pointer;
+}
+
+#navbar a, #navlinks a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navlinks a:hover{
+    border-bottom: 3px solid rgb(1, 1, 114);
+}
+
+#homescreenSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 6rem;
+    align-items: center;
+}
+
+.screenImage{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightScreenTxt h2, h4, p, .leftScreenTxt h3{
+    margin-bottom: 1rem;
+}
+
+.rightScreenTxt p{
+    width: 50%;
+    font-size: 12px;
+}
+
+.rightScreenTxt button{
+  background-color: rgb(1, 1, 114);
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.iconTag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(228, 210, 210);
+    color: rgb(163, 155, 155);
+}
+
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    align-items: center;
+    padding: 0 5rem;
+    gap: 2rem;
+}
+
+.aboutUs p{
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.aboutUs button{
+   background-color: rgb(1, 1, 114);
+   border-radius: 50px;
+   border: none;
+   padding: 5px 15px;
+   color: #fff;
+   cursor: pointer;
+}
+
+.aboutUs i{
+    font-size: 40px;
+}
+
+.phoneImages{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 2rem;
+
+}
+
+.blogTxtImage{
+    display: flex;
+    gap: 5rem;
+    padding: 0 7rem;
+}
+
+.textBlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 6rem;
+}
+
+.textBlog i{
+    font-size: 25px;
+}
+
+.TxtImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#Contact{
+    background-color:rgb(16,35,52);
+    text-align: center;
+    margin-top: 5rem;
+    color: #fff;
+    padding: 3rem 0 1.5rem 0;
+}
+
+.footerTopText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bottomP{
+    width: 50%;
+}
+
+.footerBottomText a{
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.bottomNavbar{
+    margin: 2rem 0;
+}
+
+.bottomNavbar a{
+    margin-top: 2rem;
+    padding:20px ;
+    color: #fff;
+    text-decoration: none;
+}

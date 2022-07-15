@@ -82,6 +82,20 @@ color: #fff;
     color: rgb(163, 155, 155);
 }
 
+.mustKnow{
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(250, 250, 250);
+    padding: 7rem;
+}
+
+.mustKnow p{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
 .aboutUs{
     display: flex;
     justify-content: space-between;
@@ -182,3 +196,4 @@ color: #fff;
     color: #fff;
     text-decoration: none;
 }
+

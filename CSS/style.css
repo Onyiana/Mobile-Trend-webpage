@@ -196,4 +196,26 @@ color: #fff;
     color: #fff;
     text-decoration: none;
 }
+/* This library was used to add a slide arrow on the image being displayed */
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    display: block !important;
+    border:0px solid rgb(16,35,52);
+    font-size: 50px;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    right: 25px;
+    display: block !important;
+    border:0px solid rgb(16,35,52);
+    font-size: 50px;
+}
 

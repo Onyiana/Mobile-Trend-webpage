@@ -9,9 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/CSS/bootsrap.min.css">
+    <link rel="stylesheet" href="/CSS/owlcarousel.css">
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
@@ -129,16 +127,9 @@
        </div>
    </section>
 
-   <div class="owl-carousel owl-theme">
-        <div class="item"><img src="/Images/Opp-Black-v2..png"  alt=""></div>
-        <div class="item"><img src="/Images/f8we4hzpTBfTgfHaorkse-200-80.jpg"  alt=""></div>
-        <div class="item"><img src="/Images/Galaxy-S22-Ultra-OnLeaks.jpg"  alt=""></div>
-        <div class="item"><img src="/Images/image40x0.jpg"  alt=""></div>
-        <div class="item"><img src="/Images/IMG_5071-025.jpg"  alt=""></div>
-   </div>
-    <!-- 
+   <!-- Using the library owl-carousel owl-theme -->
     <section id="productImage">
-        <div class="phoneImages">
+        <div class="phoneImages owl-carousel owl-theme">
             <div>
                 <img src="/Images/Opp-Black-v2..png" style="height:15rem ;" alt="Image">
             </div>
@@ -158,7 +149,7 @@
                 <img src="/Images/IMG_5071-025.jpg" style="height:15rem ;" alt="Image">
             </div>
         </div>
-   </section> -->
+   </section>
 
    <section>
         <div class="blogTxtImage">
@@ -257,8 +248,8 @@
         </div>
     </section>
 
+    <script src="/JS/jquery.min.js"></script>
+    <script src="/JS/owlcarousel.js"></script>
     <script src="/JS/script.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 </body>
 </html>

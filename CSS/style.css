@@ -196,6 +196,30 @@ color: #fff;
     color: #fff;
     text-decoration: none;
 }
+
+.hamburger{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(1, 1, 114);
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+}
+
 /* This library was used to add a slide arrow on the image being displayed */
 .owl-prev {
     width: 15px;
@@ -219,7 +243,7 @@ color: #fff;
     font-size: 50px;
 }
 
-
+/* Working on the mobile responsiveness. */
 @media screen and (max-width:992px) {
 
     #Homesection{
@@ -314,6 +338,40 @@ color: #fff;
     .footerBottomText a{
         font-size: 20px ;
     }
+
+      /* This is used to style the navigation bar */
+      .hamburger{
+        display: block;
+        font-size: 20px;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+
+    /* Styling the navlinks and navbar on smaller screen. */
+    #navlinks{
+        background-color: rgb(1, 1, 114);
+        flex-direction: column;
+        position: absolute;
+        width: 300px;
+        top: 50%;
+        right: -50%;
+        left: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
+    }
+
+    #navbar{
+        padding: 12px 1rem;   
+    }
+
+    #navbar a{
+       font-size: 12px;  
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -332,7 +390,7 @@ color: #fff;
 
     .rightScreenTxt button{
         padding: 4px 4px;
-        font-size: 10px;
+        font-size: 9.5px;
     }
 
     .screenImage{

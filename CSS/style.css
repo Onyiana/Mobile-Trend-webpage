@@ -251,7 +251,7 @@ color: #fff;
     }
     
     #homescreenSection{
-        padding: 4.5rem 4.5rem;
+        padding: 6rem 4.5rem;
     }
 
     .screenImage{
@@ -377,7 +377,7 @@ color: #fff;
 @media screen and (max-width:375px) {
 
     #homescreenSection{
-        padding: 2.5rem 2.5rem;
+        padding: 6rem 2.5rem;
         gap: 1rem;
     }
 

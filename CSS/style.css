@@ -246,9 +246,9 @@ color: #fff;
 /* Working on the mobile responsiveness. */
 @media screen and (max-width:992px) {
 
-    /* #Homesection{
+    #Homesection{
         height: 100vh;
-    } */
+    }
     
     #homescreenSection{
         padding: 4.5rem 4.5rem;

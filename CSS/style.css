@@ -368,5 +368,6 @@ color: #fff;
 
     .bottomNavbar a{
         font-size: 12px;
+        padding: 1rem;
     }
 }

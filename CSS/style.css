@@ -246,12 +246,12 @@ color: #fff;
 /* Working on the mobile responsiveness. */
 @media screen and (max-width:992px) {
 
-    #Homesection{
+    /* #Homesection{
         height: 100vh;
-    }
+    } */
     
     #homescreenSection{
-        padding: 6rem 4.5rem;
+        padding: 4.5rem 4.5rem;
     }
 
     .screenImage{
@@ -377,7 +377,7 @@ color: #fff;
 @media screen and (max-width:375px) {
 
     #homescreenSection{
-        padding: 6rem 2.5rem;
+        padding: 2.5rem 2.5rem;
         gap: 1rem;
     }
 

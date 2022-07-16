@@ -7,6 +7,7 @@
 }
 html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #Homesection{
@@ -160,7 +161,6 @@ color: #fff;
     margin-bottom: 1rem;
 }
 
-
 #Contact{
     background-color:rgb(16,35,52);
     text-align: center;
@@ -219,3 +219,154 @@ color: #fff;
     font-size: 50px;
 }
 
+
+@media screen and (max-width:992px) {
+
+    #Homesection{
+        height: 100vh;
+    }
+    
+    #homescreenSection{
+        padding: 4.5rem 4.5rem;
+    }
+
+    .screenImage{
+        width: 60%;
+    }
+
+    .leftScreenTxt{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .TxtImage{
+      width: 120%;
+    } 
+    .TxtImage img{
+     font-size: 100%;
+    }
+
+    .blogTxtImage{
+        gap: 8rem;
+        padding: 0 5rem;
+    }
+
+    .blogTxtImage p{
+       font-size: 17px;
+    }
+
+   .blogTxtImage .pTxt{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+    .rightScreenTxt {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .screenImage{
+        width: 25%;
+    }
+
+    .leftScreenTxt{
+        font-size: 12px;
+    }
+
+    .rightScreenTxt button{
+      padding: 8px 8px;
+      font-size: 12px;
+    }
+
+    .mustKnow p{
+        width: 100%;
+    }
+
+    .aboutUs{
+        flex-direction: column;
+    }
+
+    .blogTxtImage{
+        flex-direction: column;
+        width: 90%;
+        padding: none;
+    }
+    
+    .TxtImage{
+        flex-direction: column;
+        align-items:flex-start;
+        margin-bottom: none;
+        padding: none;
+    }
+
+    .blogTxtImage p{
+        font-size: 17px;
+    }
+
+    .footerTopText{
+        margin: 0 2rem;
+        font-size:12px;
+    }
+
+    .footerBottomText a{
+        font-size: 20px ;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    #homescreenSection{
+        padding: 2.5rem 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .rightScreenTxt {
+        width: 100%;
+    }
+    .rightScreenTxt p{
+        display: none;
+    }
+
+    .rightScreenTxt button{
+        padding: 4px 4px;
+        font-size: 10px;
+    }
+
+    .screenImage{
+        width: 40%;
+    }
+
+    .leftScreenTxt{
+        font-size: 10px;
+        box-shadow: solid rgb(185, 181, 181);
+    }
+
+    .mustKnow{
+        padding: 2rem;
+        font-size: 13px;
+    }
+
+    .blogTxtImage p{
+        font-size: 14px;
+    }
+ 
+    .blogTxtImage .pTxt{
+        font-size: 14px;
+    }
+
+    .blogTxtImage{
+        width: 100%;
+    }
+
+    .textBlog h3{
+        width: 150%;
+        font-size: medium;
+    }
+
+    .bottomNavbar a{
+        font-size: 12px;
+    }
+}

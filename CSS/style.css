@@ -165,7 +165,7 @@ color: #fff;
     background-color: rgb(16,35,52);
     text-align: center;
     justify-content: space-around;
-    padding: 5rem  3rem;
+    padding: 4rem 1.5rem;
     color: #fff;
 }
 
@@ -173,6 +173,7 @@ color: #fff;
     display: flex;
     align-items: center;
     justify-content:center;
+    margin-top: 2rem;
     gap: 5rem;
 }
 
@@ -458,4 +459,6 @@ color: #fff;
         font-size: 13px;
         margin-bottom: 1rem;
     }
+
+    
 } 

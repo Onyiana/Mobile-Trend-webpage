@@ -428,9 +428,13 @@ color: #fff;
     }
 
     .TxtImage{
-        margin: 1rem 2rem;
+        margin: 1rem 2.5rem;
         gap: 1rem;
-        width: 85%;
+        width: 82%;
+    }
+
+    .TxtImage p{
+       font-size: 15px;
     }
 
     .TxtImage1{

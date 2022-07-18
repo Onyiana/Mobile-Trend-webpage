@@ -440,15 +440,12 @@ color: #fff;
     .TxtImage1{
         flex-direction: column;
         gap: none;
+        width: 98%;
     }
 
     .imgTxt2 img{
-        width: 110%;
-    }
-
-    .imgTxt2 img{
-        width: 200%;
-        padding-right: 20rem;
+        width: 190%;
+        padding-right: 18rem;
     }
 
     .orders{

@@ -455,6 +455,10 @@ color: #fff;
         margin-right: auto;
     }
 
+    .orders p{
+       font-size: 15px;
+    }
+
     .signal , .ri-twitter-line{
         display: none;
     }

@@ -135,30 +135,40 @@ color: #fff;
 
 }
 
-.blogTxtImage{
+.blog1{
     display: flex;
-    gap: 5rem;
-    padding: 0 7rem;
+    justify-content: space-around;
+    margin-top: 6rem;
+    margin-left: 4.5rem;
+    gap: 31rem;
 }
-
 .textBlog{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 6rem;
-}
-
-.textBlog i{
-    font-size: 25px;
+    gap: 5px;
+    font-size: 18px;
 }
 
 .TxtImage{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 4rem;
+    gap: 2rem;
+}
+
+.TxtImage1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.orders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5rem;
+    gap: 51%;
 }
 
 #Contact {
@@ -273,25 +283,19 @@ color: #fff;
         margin-right: auto;
     }
 
+    .blog1{
+        gap: 20rem;
+    }
+
     .TxtImage{
-      width: 120%;
-    } 
-    .TxtImage img{
-     font-size: 100%;
+        gap: 3rem;
     }
 
-    .blogTxtImage{
-        gap: 8rem;
-        padding: 0 5rem;
+    .TxtImage p{
+        font-size: 17.5px;
+        width: 100%;
     }
 
-    .blogTxtImage p{
-       font-size: 17px;
-    }
-
-   .blogTxtImage .pTxt{
-        font-size: 15px;
-    }
 }
 
 @media screen and (max-width:768px) {
@@ -322,22 +326,17 @@ color: #fff;
         flex-direction: column;
     }
 
-    .blogTxtImage{
-        flex-direction: column;
-        width: 90%;
-        padding: none;
-    }
-    
-    .TxtImage{
-        flex-direction: column;
-        align-items:flex-start;
-        margin-bottom: none;
-        padding: none;
+    .blog1{
+      gap: 5rem;
     }
 
-    .blogTxtImage p{
-        font-size: 17px;
-    } 
+    .TxtImage{
+       flex-direction: column;
+    }
+
+    .TxtImage1{
+        gap: 4rem;
+    }
 
     .footerTopText a{
         font-size: 14px;
@@ -428,21 +427,35 @@ color: #fff;
         font-size: 13px;
     }
 
-    .blogTxtImage p{
-        font-size: 14px;
-    }
- 
-    .blogTxtImage .pTxt{
-        font-size: 14px;
+    .TxtImage{
+        margin: 1rem 2rem;
+        gap: 1rem;
+        width: 85%;
     }
 
-    .blogTxtImage{
-        width: 100%;
+    .TxtImage1{
+        flex-direction: column;
+        gap: none;
     }
 
-    .textBlog h3{
-        width: 150%;
-        font-size: medium;
+    .imgTxt2 img{
+        width: 110%;
+    }
+
+    .imgTxt2 img{
+        width: 200%;
+        padding-right: 20rem;
+    }
+
+    .orders{
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .signal , .ri-twitter-line{
+        display: none;
     }
 
     .footerTopText {
@@ -458,6 +471,4 @@ color: #fff;
         font-size: 13px;
         margin-bottom: 1rem;
     }
-
-    
 } 

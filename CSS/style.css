@@ -135,40 +135,24 @@ color: #fff;
 
 }
 
-.blog1{
+.blogTxtImage{
     display: flex;
-    justify-content: space-around;
-    margin-top: 6rem;
-    margin-left: 4.5rem;
-    gap: 31rem;
-}
-.textBlog{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 18px;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 6rem;
+    gap: 60px;
 }
 
-.TxtImage{
+.textBlog{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 4rem;
-    gap: 2rem;
+    align-items: flex-start;
 }
 
 .TxtImage1{
     display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.orders{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 5rem;
-    gap: 51%;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 #Contact {
@@ -283,19 +267,14 @@ color: #fff;
         margin-right: auto;
     }
 
-    .blog1{
-        gap: 20rem;
+    .blogTxtImage{
+     flex-direction: column;
+     gap: 10px;
     }
 
-    .TxtImage{
-        gap: 3rem;
+    .TxtImage1 p{
+        width: 600px;
     }
-
-    .TxtImage p{
-        font-size: 17.5px;
-        width: 100%;
-    }
-
 }
 
 @media screen and (max-width:768px) {
@@ -324,18 +303,6 @@ color: #fff;
 
     .aboutUs{
         flex-direction: column;
-    }
-
-    .blog1{
-      gap: 5rem;
-    }
-
-    .TxtImage{
-       flex-direction: column;
-    }
-
-    .TxtImage1{
-        gap: 4rem;
     }
 
     .footerTopText a{
@@ -426,41 +393,17 @@ color: #fff;
         padding: 2rem;
         font-size: 13px;
     }
-
-    .TxtImage{
-        margin: 1rem 2.5rem;
-        gap: 1rem;
-        width: 82%;
-    }
-
-    .TxtImage p{
-       font-size: 15px;
+    
+    .blogTxtImage{
+        padding: 0 3rem;
     }
 
     .TxtImage1{
         flex-direction: column;
-        gap: none;
-        width: 98%;
     }
 
-    .imgTxt2 img{
-        width: 190%;
-        padding-right: 18rem;
-    }
-
-    .orders{
-        flex-direction: column;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .orders p{
-       font-size: 15px;
-    }
-
-    .signal , .ri-twitter-line{
-        display: none;
+    .TxtImage1 p{
+        width:105%;
     }
 
     .footerTopText {

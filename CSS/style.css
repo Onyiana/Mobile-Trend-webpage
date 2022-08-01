@@ -267,6 +267,10 @@ color: #fff;
         margin-right: auto;
     }
 
+    .imgTxt2 img{
+        height: 10rem;
+    }
+
     .blogTxtImage{
      flex-direction: column;
      gap: 10px;
@@ -274,7 +278,7 @@ color: #fff;
 
     .TxtImage1 p{
         width: 600px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .txtPage{

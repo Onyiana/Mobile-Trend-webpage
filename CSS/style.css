@@ -274,6 +274,11 @@ color: #fff;
 
     .TxtImage1 p{
         width: 600px;
+        font-size: 17px;
+    }
+
+    .txtPage{
+        font-size: 17px;
     }
 }
 
